@@ -1,3 +1,13 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Train Times</title>
+    <!-- Link to the css file -->
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
 <?php
 // Array list of all the stations on line 19
 $line19 = ['Hagsätra', 'Rågsved',  'Högdalen', 'Bandhagen', 'Stureby', 'Svedmyra', 'Sockenplan', 'Enskede Gård', 'Globen', 'Gullmarsplan', 'Skanstull', 'Medborgarplatsen', 'Slussen', 'Gamla Stan', 'T-Centralen', 'Hötorget', 'Rådmansgatan',
@@ -21,16 +31,6 @@ if ($_SERVER['REQUEST_METHOD'] === 'POST') {
 }
 ?>
 
-<!DOCTYPE html>
-<html lang="en">
-<head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Train Times</title>
-    <!-- Link to the css file -->
-    <link rel="stylesheet" href="style.css">
-</head>
-<body>
 <!--form for both to and from stations-->
 <form method="post" action="">
     <label for="fromStation">from station:</label>
